@@ -7,64 +7,104 @@ import { motion } from 'framer-motion';
 export default function TeamSection() {
   const teamMembers = [
     {
-      name: "Dr. B. Karthik Navayan",
-      role: "Founder & Advocate",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6a63f6ffb_WhatsAppImage2025-08-25at160840.jpg"
+      name: "Nimma Narayana",
+      role: "District Judge (Retired), Advocate, High Court for the State of Telangana",
+      image: "/team/nimma-narayana.jpeg"
+    },
+    {
+      name: "Benjamin Paul Babu Kaila",
+      role: "Social Activist and IT Professional, America",
+      image: "/team/benjamin-paul-babu-kaila.jpeg"
+    },
+    {
+      name: "R Ravi Kumar",
+      role: "Activist, Former Secretary, National Dalit Forum, Hyderabad",
+      image: "/team/r-ravi-kumar.jpeg"
+    },
+    {
+      name: "M A Shakeel",
+      role: "Advocate, High Court of Telangana",
+      image: "/team/m-a-shakeel.jpeg"
+    },
+    {
+      name: "Satish Kumar",
+      role: "Advocate, High Court of Rajasthan",
+      image: "/team/satish-kumar.jpeg"
+    },
+    {
+      name: "U D Jai Bhima Rao",
+      role: "Advocate, High Court of Andhra Pradesh, Vijayawada",
+      image: "/team/u-d-jai-bhima-rao.jpeg"
+    },
+    {
+      name: "Dr B Karthik Navayan",
+      role: "Advocate, High Court of Telangana, Hyderabad",
+      image: "/team/dr-b-karthik-navayan.jpeg"
+    },
+    {
+      name: "Nitin Meshram",
+      role: "Advocate, Supreme Court of India",
+      image: "/team/nitin-meshram.jpeg"
+    },
+    {
+      name: "Satya Prakash Gautam",
+      role: "Advocate, Supreme Court of India",
+      image: "/team/satya-prakash-gautam.jpeg"
+    },
+    {
+      name: "Dr Nalamasa Krishna",
+      role: "Advocate, High Court of Telangana",
+      image: "/team/dr-nalamasa-krishna.jpeg"
     },
     {
       name: "Srikanth Chintala",
-      role: "Coordinator & Advocate",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/eb06f97ad_WhatsAppImage2025-08-25at1608393.jpeg"
+      role: "Advocate, High Court of Telangana",
+      image: "/team/srikanth-chintala.jpeg"
+    },
+    {
+      name: "Kavita Nirmala Waman",
+      role: "Legal Professional, Pune",
+      image: "/team/kavita-nirmala-waman.jpeg"
     },
     {
       name: "Swapna Gumpula",
-      role: "Coordinator & Advocate",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/fbf2395ba_WhatsAppImage2025-08-25at1608331.jpg"
+      role: "Advocate, Hyderabad",
+      image: "/team/swapna-gumpula.jpeg"
     },
     {
-      name: "Senior Advocate",
-      role: "Legal Advisor",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/71893c999_WhatsAppImage2025-08-25at160839.jpg"
+      name: "Dr Sindhujaa Iyengar",
+      role: "Legal Professional, Bangalore",
+      image: "/team/dr-sindhujaa-iyengar.jpeg"
     },
     {
-      name: "Legal Advocate",
-      role: "Senior Counsel",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/f7997741e_WhatsAppImage2025-08-25at1608381.jpeg"
+      name: "Degree Prasad Chouhan",
+      role: "Advocate, High Court of Chhattisgarh, Bilaspur",
+      image: "/team/degree-prasad-chouhan.jpeg"
     },
     {
-      name: "Senior Legal Professional",
-      role: "Advocate",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/7979eaf7c_WhatsAppImage2025-08-25at160838.jpeg"
+      name: "E Sudarshan",
+      role: "Advocate, Hyderabad",
+      image: "/team/e-sudarshan.jpeg"
     },
     {
-      name: "Legal Expert",
-      role: "Human Rights Advocate",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/c0d8612c1_WhatsAppImage2025-08-25at1608391.jpeg"
+      name: "Paleti Maheshwar Rao",
+      role: "Advocate, High Court of Andhra Pradesh",
+      image: "/team/paleti-maheshwar-rao.jpeg"
     },
     {
-      name: "Senior Counsel",
-      role: "Legal Advisor",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/66189cf87_WhatsAppImage2025-08-25at1608392.jpg"
+      name: "G Rajasekhar",
+      role: "Activist, Hyderabad",
+      image: "/team/g-rajasekhar.jpeg"
     },
     {
-      name: "Legal Advocate",
-      role: "Rights Activist",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/81d6c71e5_WhatsAppImage2025-08-25at1608371.jpg"
+      name: "Suraj Rajoriya",
+      role: "Advocate, High Court of Madhya Pradesh",
+      image: "/team/suraj-rajoriya.jpeg"
     },
     {
-      name: "Senior Legal Advisor",
-      role: "Constitutional Expert",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/f55a3a173_WhatsAppImage2025-08-25at1608372.jpeg"
-    },
-    {
-      name: "Legal Professional",
-      role: "Social Justice Advocate",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/2974fe9cc_WhatsAppImage2025-08-25at160837.jpeg"
-    },
-    {
-      name: "Senior Advocate",
-      role: "Legal Researcher",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/c7a179e73_WhatsAppImage2025-08-25at160836.jpeg"
+      name: "Tarun Tej",
+      role: "Junior Advocate",
+      image: "/team/tarun-tej.jpeg"
     }
   ];
 
@@ -103,7 +143,7 @@ export default function TeamSection() {
                 <div className="aspect-[4/5] overflow-hidden">
                   <img
                     src={member.image}
-                    alt={member.name}
+                    alt={`${member.name}${member.role ? ' - ' + member.role : ''}`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
@@ -111,9 +151,11 @@ export default function TeamSection() {
                   <h3 className="font-bold text-slate-900 mb-2 text-lg leading-tight">
                     {member.name}
                   </h3>
-                  <p className="text-slate-600 text-sm">
-                    {member.role}
-                  </p>
+                  {member.role && (
+                    <p className="text-slate-600 text-sm">
+                      {member.role}
+                    </p>
+                  )}
                 </CardContent>
               </Card>
             </motion.div>
