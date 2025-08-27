@@ -49,7 +49,7 @@ export default function HeroSection() {
                   Led by Dr. B. Karthik Navayan
                 </p>
                 <p className="text-slate-400">
-                  Former Amnesty International Human Rights Advocate
+                  Human Rights Advocate
                 </p>
               </div>
             </div>

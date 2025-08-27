@@ -48,9 +48,8 @@ export default function AboutSection() {
                 caste-based injustice through legal empowerment, advocacy, and action.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Founded by Dr. B. Karthik Navayan, a renowned human rights activist and former 
-                officer at Amnesty International India, LawPilot Foundation stands at the 
-                intersection of law and justice.
+                Founded by Dr. B. Karthik Navayan, a renowned human rights activist, LawPilot 
+                Foundation stands at the intersection of law and justice.
               </p>
               <p className="text-slate-600 leading-relaxed">
                 Through partnerships, volunteer networks, and legal professionals, we are building 
