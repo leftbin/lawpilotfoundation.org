@@ -33,6 +33,13 @@ export default function ServicesSection() {
       description: "Comprehensive research and documentation of caste-based injustice cases",
       color: "bg-purple-500",
       lightColor: "bg-purple-50"
+    },
+    {
+      icon: Heart,
+      title: "Strategic Litigation",
+      description: "Strategic litigation for bringing policy and legal changes in favour of the marginalised communities",
+      color: "bg-rose-500",
+      lightColor: "bg-rose-50"
     }
   ];
 
@@ -58,7 +65,7 @@ export default function ServicesSection() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={index}
